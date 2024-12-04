@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: royalblue;
+}
+
+.heading h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.result h1{
+    text-align: center;
+}
+
+.scores h1{
+    margin: 20px;
+    
+}
+
+.scores h2{
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+.rock {
+    background-color: yellow;
+}
+.paper {
+    background-color: purple;
+}
+.scissor {
+    background-color: rgb(23, 185, 23);
+}
+
+.buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    justify-self: start;
+}
+
+.buttons button {
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    font-size: 36px;
+    transition: 0.2s ease-out;
+    border-radius: 10px;
+    border: none;
+}
+
+.buttons button:hover {
+    background-color: orangered;
+    color: white;
+}
